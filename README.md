@@ -1,6 +1,6 @@
-# 💰 FinFlow – Finance Dashboard
+# FinFlow – Finance Dashboard
 
-## 🚀 Overview
+## Overview
 
 FinFlow is a lightweight, browser-based finance dashboard that helps users track income, expenses, and financial insights through an interactive UI.
 
@@ -8,9 +8,9 @@ The application is built using **HTML, CSS, and JavaScript**, focusing on clean 
 
 ---
 
-## ✨ Features
+## Features
 
-### 📊 Dashboard
+### Dashboard
 
 * Displays key financial metrics:
 
@@ -26,7 +26,7 @@ The application is built using **HTML, CSS, and JavaScript**, focusing on clean 
 
 ---
 
-### 💳 Transactions Management
+### Transactions Management
 
 * Add transactions (Admin only)
 * Delete transactions (Admin only)
@@ -40,7 +40,7 @@ The application is built using **HTML, CSS, and JavaScript**, focusing on clean 
 
 ---
 
-### 🧠 State Management
+### State Management
 
 * Centralized state handled using JavaScript object
 * Data persistence using **localStorage**
@@ -48,7 +48,7 @@ The application is built using **HTML, CSS, and JavaScript**, focusing on clean 
 
 ---
 
-### 🎨 UI / UX
+### UI / UX
 
 * Sidebar-based navigation
 * Clean and modern layout
@@ -57,7 +57,7 @@ The application is built using **HTML, CSS, and JavaScript**, focusing on clean 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * HTML5
 * CSS3
@@ -66,7 +66,7 @@ The application is built using **HTML, CSS, and JavaScript**, focusing on clean 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 finance-dashboard/
 ├── index.html        # Dashboard page
@@ -76,7 +76,7 @@ finance-dashboard/
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 1. Download or clone the repository
 2. Open `index.html` in your browser
@@ -86,7 +86,7 @@ No installation or setup required.
 
 ---
 
-## 🔐 Role-Based Access
+## Role-Based Access
 
 | Role  | Permissions               |
 | ----- | ------------------------- |
@@ -97,7 +97,7 @@ Switch roles using the dropdown on the Transactions page.
 
 ---
 
-## 📊 Design Decisions
+## Design Decisions
 
 * **Two-page architecture**
   Separated Dashboard and Transactions for better scalability and UX.
@@ -109,7 +109,7 @@ Switch roles using the dropdown on the Transactions page.
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * No backend or database
 * No authentication system
@@ -117,7 +117,7 @@ Switch roles using the dropdown on the Transactions page.
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Backend integration (Node.js / Java Spring Boot)
 * User authentication & authorization
@@ -127,7 +127,7 @@ Switch roles using the dropdown on the Transactions page.
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This project demonstrates:
 
