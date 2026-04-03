@@ -20,19 +20,16 @@
     <h1>Transactions</h1>
 
     <div class="topbar">
-      <input id="search" placeholder="Search..." />
-      
+      <input id="search" placeholder="Search category..." />
       <select id="filterType">
-        <option value="all">All</option>
+        <option value="all">All Types</option>
         <option value="income">Income</option>
         <option value="expense">Expense</option>
       </select>
-
-      <button id="addBtn">Add</button>
-
+      <button id="addBtn">+ Add</button>
       <select id="roleSelect">
-        <option value="user">User</option>
-        <option value="admin">Admin</option>
+        <option value="user">👤 Viewer</option>
+        <option value="admin">⚡ Admin</option>
       </select>
     </div>
 
@@ -53,14 +50,38 @@
 </div>
 
 <!-- Modal -->
-<div id="modal" class="modal hidden">
-  <input id="category" placeholder="Category" />
-  <input id="amount" type="number" placeholder="Amount" />
-  <select id="type">
-    <option value="income">Income</option>
-    <option value="expense">Expense</option>
-  </select>
-  <button onclick="saveTransaction()">Save</button>
+<div id="modal" class="modal-overlay hidden">
+  <div class="modal">
+    <h3>Add Transaction</h3>
+
+    <div class="modal-field">
+      <label>Category</label>
+      <input id="category" placeholder="e.g. Food, Rent, Salary" />
+    </div>
+
+    <div class="modal-field">
+      <label>Amount (₹)</label>
+      <input id="amount" type="number" placeholder="0" min="0" />
+    </div>
+
+    <div class="modal-field">
+      <label>Type</label>
+      <select id="type">
+        <option value="income">Income</option>
+        <option value="expense">Expense</option>
+      </select>
+    </div>
+
+    <div class="modal-field">
+      <label>Date</label>
+      <input id="txnDate" type="date" />
+    </div>
+
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeModal()">Cancel</button>
+      <button class="btn-save" onclick="saveTransaction()">Save</button>
+    </div>
+  </div>
 </div>
 
 <script src="script.js"></script>
