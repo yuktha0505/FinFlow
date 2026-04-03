@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FinFlow Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>FinFlow</h2>
+    <a href="index.html" class="active">Dashboard</a>
+    <a href="transactions.html">Transactions</a>
+  </aside>
+
+  <!-- Main -->
+  <main>
+    <h1>Overview</h1>
+
+    <!-- KPI -->
+    <div class="cards">
+      <div class="card">Balance: ₹<span id="balance">0</span></div>
+      <div class="card green">Income: ₹<span id="income">0</span></div>
+      <div class="card red">Expense: ₹<span id="expense">0</span></div>
+      <div class="card">Status: <span id="status">-</span></div>
+    </div>
+
+    <!-- Chart -->
+    <canvas id="chart"></canvas>
+
+    <!-- Insights -->
+    <div class="insights">
+      <h3>Insights</h3>
+      <p id="insightText">No data</p>
+    </div>
+
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
